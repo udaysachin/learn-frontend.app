@@ -1,5 +1,98 @@
-.navigation{
-    display: block;
-    background-color: grey;
-    padding: 30px;
+.navigation {
+  display: block;
+  background-color: grey;
+  padding: 30px;
+}
+hr {
+  border: none;
+  border-top-style: dotted;
+  border-width: 5px;
+  border-color: grey;
+  width: 10%;
+  margin: 0 auto 0 auto;
+  /* flex: 1; */
+}
+body {
+  margin: 2px;
+  text-align: center;
+}
+h1 {
+  margin: 50px, auto, 0, auto;
+  font-size: 90px;
+  color: #66bfbf;
+  text-decoration-color: #66bfbf;
+  font-family: "Sacramento", cursive;
+}
+h2 {
+  color: #66bfbf;
+  font-size: 2.625rem;
+  text-decoration-color: #66bfbf;
+  font-family: "Merriweather";
+}
+h3 {
+  font-family: "Merriweather";
+  color: #11999e;
+  margin-bottom: 0px;
+}
+.container {
+  background-color: #97dece;
+  position: relative;
+  padding-top: 200px;
+}
+.skill-row {
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+.top-cloud {
+  position: absolute;
+  top: 150px;
+  right: 300px;
+}
+.profile-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 60px;
+}
+.skill1 {
+  width: 25%;
+  height: 90px;
+  float: left;
+  margin-right: 20px;
+}
+.skill2 {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+  height: 60px;
+}
+.btn {
+  color: white;
+  background-color: #11999e;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+.contact-me {
+  position: relative;
+  bottom: 20px;
+}
+.bottom-container {
+  background-color: #66bfbf;
+  padding: 10px;
+}
+.footer-link {
+  text-decoration: none;
+  color: #11999e;
+  margin-right: 40px;
+}
+.copy-right {
+  color: #eaf6f6;
 }
